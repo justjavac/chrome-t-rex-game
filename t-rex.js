@@ -237,7 +237,8 @@
          * @return {boolean}
          */
         isDisabled: function () {
-            return loadTimeData && loadTimeData.valueExists('disabledEasterEgg');
+            // return loadTimeData && loadTimeData.valueExists('disabledEasterEgg');
+            return false;
         },
 
         /**
