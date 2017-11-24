@@ -297,3 +297,15 @@ html {
     transition: transform 250ms cubic-bezier(0.4, 0.0, 1, 1) .4s;
     z-index: 2;
 }
+
+.v-fork-me {
+  position:fixed;
+  right:0;top:0;
+  z-index:999;
+}
+
+@media (max-width: 979px) {
+  .v-fork-me {
+    display: none;
+  }
+}
