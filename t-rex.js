@@ -1,6 +1,7 @@
 // Copyright (c) 2014 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
+// source code: https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js
 (function () {
     'use strict';
     /**
@@ -253,7 +254,6 @@
             document.addEventListener(Runner.events.KEYDOWN, function (e) {
                 if (Runner.keycodes.JUMP[e.keyCode]) {
                     this.containerEl.classList.add(Runner.classes.SNACKBAR_SHOW);
-                    document.querySelector('.icon').classList.add('icon-disabled');
                 }
             }.bind(this));
         },
