@@ -2,4 +2,4 @@
 
 Chrome offline T-rex game.
 
-[source code](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js)
+在线试玩地址：http://trex.jjc.fun
