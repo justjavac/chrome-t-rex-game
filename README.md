@@ -1,4 +1,4 @@
-# Chrome T-Rex Game
+# ==> https://github.com/justjavac/deno_trex_game
 
 Chrome offline T-rex game.
 
